@@ -6,13 +6,18 @@ num1 + num2 = sum
 print sum
 
 ask for 2 numbers 
-add the 2 number together 
+add the 2 numbers together 
 print on the screen the sum of those 2 numbers
 
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+//check if number divisible by 2
+//if TRUE, display Even
+//if FALSE, display ODD
+
+if num/2 == TRUE, print Even
+OR print Odd
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +27,42 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+//Enter five separate numbers
+//Add all five numbers then divide by 5, display Average
+//Determine lowest number, display Minimum
+//Determine highest number, display Maximum
+//Display Average (average of entered numbers), Minimum (lowest number), and Maximum (highest number)
+
+input num1, num2, num3, num4, num5
+Set average((num1+num2+num3+num4+num5)/5)
+Print average
+
+If (num1<num2)
+	Set max to num2
+Else
+	Set max to num1
+If (num3>max)
+	Set max to num3
+If (num4>max)
+	Set max to num4
+If (num5>max)
+	Set max to num5
+Print max
+
+
+If (num1>num2)
+	Set min to num2
+Else
+	Set min to num1
+If (num3<min)
+	Set min to num3
+If (num4<min)
+	Set min to num4
+If (num5<min)
+	Set min to num5
+Print min
+
+
+Print average (average of entered numbers), min (lowest number), and max (highest number)
 
 -- END --
